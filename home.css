@@ -54,7 +54,7 @@ body{
     z-index: 0;
 }
 .mtnav{
-    display: flex;
+    display: none;
     padding: 3px;
     align-content: right;
     align-items: right;
@@ -68,9 +68,6 @@ body{
         align-self: center;
         font-size: 30px;
     }
-.mtnav{
-    display: none;
-}
 @media screen and (max-width: 767px) {
     .mtnav{
         display: block;
